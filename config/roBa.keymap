@@ -87,10 +87,10 @@
 
         symbol {
             bindings = <
-&kp F7     &kp N7  &kp N8   &kp N9  &kp PLUS                                                   &kp APOS         &kp EQUAL         &kp QUESTION     &kp GRAVE      &kp GRAVE
-&kp F10    &kp N4  &kp N5   &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION  &kp MINUS         &kp EXCLAMATION  &kp PERCENT    &kp SEMI
-&kp LSHFT  &kp N1  &kp N2   &kp N3  &kp PERIOD    &lt 3 EQUAL                  &trans          &kp HASH         &kp LS(ASTERISK)  &kp AT_SIGN      &kp AMPERSAND  &kp LS(SEMI)
-&kp ESC    &kp N0  &kp DOT  &trans  &trans        &trans                       &trans          &trans                                                             &kp PIPE
+&kp F7     &kp N7  &kp N8   &kp N9  &kp PLUS                                              &kp APOS           &kp EQUAL         &kp QUESTION     &kp GRAVE      &kp GRAVE
+&kp F10    &kp N4  &kp N5   &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS         &kp EXCLAMATION  &kp PERCENT    &kp SEMI
+&kp LSHFT  &kp N1  &kp N2   &kp N3  &kp PERIOD    &lt 3 EQUAL                  &trans     &kp HASH           &kp LS(ASTERISK)  &kp AT_SIGN      &kp AMPERSAND  &kp LS(SEMI)
+&kp ESC    &kp N0  &kp DOT  &trans  &trans        &trans                       &trans     &trans                                                               &lt 6 CARET
             >;
         };
 
@@ -116,10 +116,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RIGHT_COMMAND  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
         };
 
