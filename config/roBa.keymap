@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &to 0
+&kp LCTRL  &kp N7  &kp N8   &kp N9  &kp LS(N9)                                            &kp RS(N0)    &kp F2    &kp F3          &kp EQUAL  &kp BACKSPACE
+&kp LALT   &kp N4  &kp N5   &kp N6  &kp LBKT    &trans                      &kp RG(X)     &kp RBKT      &kp F7    &kp UP_ARROW    &kp MINUS  &kp SEMI
+&kp LSHFT  &kp N1  &kp N2   &kp N3  &kp BSLH    &lt_to_layer_0 3 LG(V)      &kp RG(C)     &kp FSLH      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp RSHFT
+&kp LGUI   &kp N0  &kp DOT  &trans  &trans      &trans                      &kp RS(RALT)  &kp RS(RGUI)                                       &to 0
             >;
         };
 
